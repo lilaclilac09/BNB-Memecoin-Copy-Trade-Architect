@@ -9,7 +9,7 @@ interface SidebarProps {
 
 const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
   const navItems = [
-    { id: AppTab.DASHBOARD, label: 'Live Monitor', icon: 'fa-chart-line' },
+    { id: AppTab.DASHBOARD, label: 'Demo Monitor', icon: 'fa-chart-line' },
     { id: AppTab.CONFIG, label: 'Bot Config', icon: 'fa-cog' },
   ];
 
@@ -41,8 +41,8 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
       </div>
       <div className="mt-auto p-6 border-t border-zinc-800">
         <div className="flex items-center gap-3 px-2 py-3 bg-zinc-800/50 rounded-lg">
-          <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-          <span className="text-sm text-zinc-400 font-medium">Node Sync: Mainnet</span>
+          <div className="w-2 h-2 bg-zinc-500 rounded-full"></div>
+          <span className="text-sm text-zinc-400 font-medium">No node connection</span>
         </div>
       </div>
     </div>

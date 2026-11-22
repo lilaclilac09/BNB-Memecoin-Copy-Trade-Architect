@@ -55,8 +55,8 @@ const App: React.FC = () => {
               </span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-green-500"></span>
-              <span className="text-xs text-zinc-400 font-mono">Status: Connected</span>
+              <span className="w-2 h-2 rounded-full bg-zinc-500"></span>
+              <span className="text-xs text-zinc-400 font-mono">Simulation only</span>
             </div>
           </div>
         </header>

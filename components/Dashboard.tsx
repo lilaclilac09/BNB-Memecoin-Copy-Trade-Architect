@@ -31,10 +31,10 @@ const Dashboard: React.FC = () => {
     <div className="p-8 space-y-8 animate-in fade-in duration-500">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         {[
-          { label: 'Active Targets', value: '12', sub: 'Monitoring Whales', icon: 'fa-users' },
-          { label: 'Live Network', value: 'BNB Chain', sub: 'Mainnet V3', icon: 'fa-bolt' },
-          { label: 'Latency', value: '120ms', sub: 'Optimized via QuickNode', icon: 'fa-tachometer-alt' },
-          { label: 'Safety Score', value: '98/100', sub: 'Anti-Rug Enabled', icon: 'fa-shield-alt' },
+          { label: 'Example Targets', value: '12', sub: 'No active monitoring', icon: 'fa-users' },
+          { label: 'Target Network', value: 'BNB Chain', sub: 'Not connected', icon: 'fa-bolt' },
+          { label: 'Example Latency', value: '120ms', sub: 'Not measured', icon: 'fa-tachometer-alt' },
+          { label: 'Example Safety Score', value: '98/100', sub: 'Not evaluated', icon: 'fa-shield-alt' },
         ].map((stat, i) => (
           <div key={i} className="bg-zinc-900 p-6 rounded-xl border border-zinc-800 hover:border-zinc-700 transition-colors">
             <div className="flex items-center justify-between mb-4">
@@ -52,7 +52,7 @@ const Dashboard: React.FC = () => {
           <div className="flex items-center justify-between mb-6">
             <h3 className="font-semibold text-lg text-zinc-100">Network Traffic & Gas Trends</h3>
             <div className="flex gap-2">
-              <span className="px-3 py-1 bg-zinc-800 rounded text-xs text-zinc-300">Live</span>
+              <span className="px-3 py-1 bg-zinc-800 rounded text-xs text-zinc-300">Sample data</span>
             </div>
           </div>
           <div className="h-64 w-full">
