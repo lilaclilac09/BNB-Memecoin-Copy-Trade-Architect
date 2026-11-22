@@ -2,11 +2,11 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# BNB Architect
 
-This contains everything you need to run your app locally.
+**Status: LOCAL ONLY** — run `npm run dev` to review the copy-trading configuration demo.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1utfI7pOPMF9Nbo86HX9LRnMrVA2E48Ht
+The monitor uses sample operational metrics. The app does not connect to a BNB Chain node or execute trades. [AI Studio project](https://ai.studio/apps/drive/1utfI7pOPMF9Nbo86HX9LRnMrVA2E48Ht).
 
 ## Run Locally
 
